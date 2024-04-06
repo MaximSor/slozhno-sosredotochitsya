@@ -310,6 +310,10 @@
     gap: 0;
   }
 
+  .title-what {
+    max-width: 236px;
+  }
+
   .footer-title {
     font-family: IBM Plex Mono;
     font-size: 120px;
@@ -387,6 +391,10 @@
   .section-how {
     display: flex;
     flex-direction: column;
+    padding: 0 10px 50px 10px;
+  }
+
+  .images {
     padding: 0 10px 50px 10px;
   }
 
