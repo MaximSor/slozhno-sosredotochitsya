@@ -15,3 +15,17 @@
   --color-text: #353430;
   --visibility: hidden;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bgcolor: #fff1f7;
+    --bgimage: url(../images/cover-image-light.png);
+    --decor-color: #353430;
+    --header-title-color: #ffc2e6;
+    --color-shad: #ff8dcb;
+    --color-text-subtitle: #353430;
+    --color-backg-subtitle: #ff8dcb;
+    --color-text: #353430;
+    --visibility: hidden;
+  }
+}

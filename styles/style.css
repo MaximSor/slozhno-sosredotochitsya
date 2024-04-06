@@ -4,6 +4,10 @@
   background-color: var(--bgcolor);
   font-family: "IBM Plex mono", monospace;
   background-attachment: fixed;
+  background-image: var(--bgimage);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -13,10 +17,7 @@
   align-items: center;
   margin-block-end: 60px;
   min-block-size: 100vh;
-  background-image: var(--bgimage);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
   padding: 20px;
   position: relative;
 }
@@ -108,7 +109,7 @@
 
 .header-title {
   font-family: IBM Plex Mono;
-  font-size: 157px;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
   line-height: 129.53px;
   text-align: left;
@@ -300,7 +301,7 @@
 
   .header-title {
     font-family: IBM Plex Mono;
-    font-size: 120px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-weight: 700;
     line-height: 99px;
     text-align: left;
@@ -333,7 +334,7 @@
 
   .header-title {
     font-family: IBM Plex Mono;
-    font-size: 120px;
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
     font-weight: 700;
     line-height: 99px;
     text-align: left;
