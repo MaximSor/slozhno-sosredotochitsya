@@ -288,13 +288,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    gap: 10px;
     margin-block-start: 172px;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
+    gap: 12px;
   }
 
   .header-title {
@@ -353,13 +353,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    gap: 12px;
     margin-block-start: 65px;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: column;
+    gap: 12px;
   }
 
   .header-title {
