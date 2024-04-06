@@ -74,7 +74,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--decor-color), 40%;
+  border: 1px solid var(--button-hover);
 }
 
 .header__theme-menu-button:focus {

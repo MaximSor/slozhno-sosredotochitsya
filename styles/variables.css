@@ -2,6 +2,7 @@
   --bgcolor: #000028;
   --bgimage: url(../images/cover-image-dark.png);
   --decor-color: #ff0070;
+  --button-hover: #ff007066;
   --header-title-color: #db00ff;
   --color-shad: #ff0070;
   --color-text-subtitle: #000028;
@@ -12,6 +13,7 @@
   --bgcolor: #fff1f7;
   --bgimage: url(../images/cover-image-light.png);
   --decor-color: #353430;
+  --button-hover: #32312d66;
   --header-title-color: #ffc2e6;
   --color-shad: #ff8dcb;
   --color-text-subtitle: #353430;
