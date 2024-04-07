@@ -339,7 +339,19 @@
     right: 38px;
   }
 
-  .section {
+  .section-reason {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 50px 10px;
+  }
+
+  .section-what {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 50px 10px;
+  }
+
+  .section-how {
     display: flex;
     flex-direction: column;
     padding: 0 10px 50px 10px;
