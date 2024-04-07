@@ -2,7 +2,7 @@
 
 .page {
   background-color: var(--bgcolor);
-  font-family: "IBM Plex mono", monospace;
+  font-family: IBM Plex Mono, Arial, sans-serif;
   background-attachment: fixed;
   background-image: var(--bgimage);
   background-position: center;
@@ -71,6 +71,7 @@
 
 .header__theme-menu-button_active {
   outline: 1px solid var(--decor-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
@@ -301,6 +302,14 @@
 
   .title-what {
     max-width: 236px;
+  }
+}
+
+@media (375px< width <= 767px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 50px 10px;
   }
 }
 
