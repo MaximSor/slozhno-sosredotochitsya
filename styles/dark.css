@@ -16,3 +16,18 @@
   --color-text: #f1b2ce;
   --visibility: visible;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bgcolor: #000028;
+    --bgimage: url(../images/cover-image-dark.png);
+    --decor-color: #ff0070;
+    --button-hover: #ff007066;
+    --header-title-color: #db00ff;
+    --color-shad: #ff0070;
+    --color-text-subtitle: #000028;
+    --color-backg-subtitle: #ff0070;
+    --color-text: #f1b2ce;
+    --visibility: visible;
+  }
+}
