@@ -139,7 +139,7 @@
 
 .section-reason {
   display: grid;
-  grid-template-columns: repeat(1, auto auto);
+  grid-template-columns: 1fr 2fr;
   gap: 20px;
   padding: 0 20px 80px 20px;
 }
@@ -206,7 +206,7 @@
 
 .section-how {
   display: grid;
-  grid-template-columns: repeat(1, auto auto);
+  grid-template-columns: 1fr 2fr;
   gap: 20px;
   padding: 0 20px 80px 20px;
 }
