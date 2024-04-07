@@ -339,19 +339,7 @@
     right: 38px;
   }
 
-  .section-reason {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 50px 10px;
-  }
-
-  .section-what {
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px 50px 10px;
-  }
-
-  .section-how {
+  .section {
     display: flex;
     flex-direction: column;
     padding: 0 10px 50px 10px;
@@ -360,6 +348,14 @@
   .section-content-what {
     grid-template-columns: 1fr;
     gap: 0;
+  }
+
+  .title-what {
+    max-width: 355px;
+  }
+
+  .title-how {
+    max-width: 355px;
   }
 
   .images {
